@@ -1,0 +1,60 @@
+html{
+    margin: 0;
+    color:white;
+}
+.title{
+    text-align: center;
+}
+
+.wins{
+    text-align: center;
+}
+
+.selections{
+    display:flex;
+    flex-wrap: wrap;
+    border:solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+
+    border:solid;
+    margin:20px 40px;
+}
+.btn:hover{
+    background-color:rgb(187, 187, 187);
+
+}
+img{
+    display: flex;
+    border: solid;
+    max-width: 200px;
+    height: auto;
+}
+
+
+body{
+    min-height:800px;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border:solid;
+    background-color: black;
+    flex: 1 1 0;
+}
+
+.score{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: yellow;
+
+}
+
+.results{
+    font-size:16px;
+}

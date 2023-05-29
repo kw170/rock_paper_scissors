@@ -66,13 +66,6 @@ function computerScoreUpdate(){
 }
 
 
-
-
-
-
-
-
-
 let result;
 let computerSelection;
 let playerSelection;
@@ -104,8 +97,5 @@ selections.forEach((button)=>{button.addEventListener('click', e => {
         playerScore = 0
         computerScore = 0
     }
-
-
-
     })
 })
